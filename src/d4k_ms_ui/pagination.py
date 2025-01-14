@@ -66,6 +66,7 @@ class Pagination():
       return "autofocus"
 
   def filter_disabled(self):
+    print(f"disable_filter: {self.disable_filter}")
     if self.disable_filter:
       return "disabled"
     else:

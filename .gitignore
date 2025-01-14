@@ -174,4 +174,4 @@ cython_debug/
 .DS_Store
 
 # Useful files
-setup_env.py
+setup_env.sh
